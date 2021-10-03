@@ -1,0 +1,784 @@
+local FreeHub = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local Logs = Instance.new("Frame")
+local FreeHubTitle = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TabsContainer = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Visualizer = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Utilities = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Logs_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Utilities_2 = Instance.new("Frame")
+local FreeHubTitle_2 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local TabsContainer_2 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Home_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Visualizer_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Utilities_3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Logs_3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Visualizer_3 = Instance.new("Frame")
+local FreeHubTitle_3 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local TabsContainer_3 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Home2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Visualizer2 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Utilities2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Logs2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Home_3 = Instance.new("Frame")
+local FreeHubTitle_4 = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+local TabsContainer_4 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local Home_4 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Visualizer_4 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Utilities_4 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Logs_4 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local CreditBox = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+
+FreeHub.Name = "FreeHub"
+FreeHub.Parent = game.CoreGui
+FreeHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FreeHub.ResetOnSpawn = false
+
+Drag.Name = "Drag"
+Drag.Parent = FreeHub
+Drag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Drag.BackgroundTransparency = 1.000
+Drag.Position = UDim2.new(0.283636361, 0, 0.21405229, 0)
+Drag.Size = UDim2.new(0, 594, 0, 353)
+
+Logs.Name = "Logs"
+Logs.Parent = Drag
+Logs.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Logs.LayoutOrder = 3
+Logs.Position = UDim2.new(0.00100000005, 0, -0.00600000005, 0)
+Logs.Size = UDim2.new(0, 594, 0, 356)
+Logs.Visible = false
+
+FreeHubTitle.Name = "FreeHubTitle"
+FreeHubTitle.Parent = Logs
+FreeHubTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FreeHubTitle.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle.Position = UDim2.new(0.0259053148, 0, 0.0359273553, 0)
+FreeHubTitle.Size = UDim2.new(0, 163, 0, 49)
+FreeHubTitle.Font = Enum.Font.Cartoon
+FreeHubTitle.Text = "FreeHub"
+FreeHubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle.TextSize = 45.000
+FreeHubTitle.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = FreeHubTitle
+
+UICorner_2.CornerRadius = UDim.new(0, 20)
+UICorner_2.Parent = Logs
+
+TabsContainer.Name = "TabsContainer"
+TabsContainer.Parent = Logs
+TabsContainer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TabsContainer.Position = UDim2.new(0.772727251, 0, 0.0252808984, 0)
+TabsContainer.Size = UDim2.new(0, 125, 0, 195)
+
+UICorner_3.CornerRadius = UDim.new(0, 16)
+UICorner_3.Parent = TabsContainer
+
+Home.Name = "Home"
+Home.Parent = TabsContainer
+Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home.Position = UDim2.new(0.0240000002, 0, 0.0199999996, 0)
+Home.Size = UDim2.new(0, 119, 0, 43)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 20)
+UICorner_4.Parent = Home
+
+Visualizer.Name = "Visualizer"
+Visualizer.Parent = TabsContainer
+Visualizer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Visualizer.Position = UDim2.new(0.0240000002, 0, 0.264999986, 0)
+Visualizer.Size = UDim2.new(0, 119, 0, 43)
+Visualizer.Font = Enum.Font.SourceSans
+Visualizer.Text = "Visualizer"
+Visualizer.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visualizer.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 20)
+UICorner_5.Parent = Visualizer
+
+Utilities.Name = "Utilities"
+Utilities.Parent = TabsContainer
+Utilities.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Utilities.Position = UDim2.new(0.0240000002, 0, 0.514999986, 0)
+Utilities.Size = UDim2.new(0, 119, 0, 43)
+Utilities.Font = Enum.Font.SourceSans
+Utilities.Text = "Utilities"
+Utilities.TextColor3 = Color3.fromRGB(255, 255, 255)
+Utilities.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = Utilities
+
+Logs_2.Name = "Logs"
+Logs_2.Parent = TabsContainer
+Logs_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logs_2.Position = UDim2.new(0.0240000002, 0, 0.75999999, 0)
+Logs_2.Size = UDim2.new(0, 119, 0, 43)
+Logs_2.Font = Enum.Font.SourceSans
+Logs_2.Text = "Logs"
+Logs_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Logs_2.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = Logs_2
+
+TextLabel.Parent = Logs
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.313131303, 0, 0.306179762, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "L"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+Utilities_2.Name = "Utilities"
+Utilities_2.Parent = Drag
+Utilities_2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Utilities_2.LayoutOrder = 2
+Utilities_2.Position = UDim2.new(0.00100000005, 0, -0.00600000005, 0)
+Utilities_2.Size = UDim2.new(0, 594, 0, 356)
+Utilities_2.Visible = false
+
+FreeHubTitle_2.Name = "FreeHubTitle"
+FreeHubTitle_2.Parent = Utilities_2
+FreeHubTitle_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FreeHubTitle_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_2.Position = UDim2.new(0.0259053148, 0, 0.0359273553, 0)
+FreeHubTitle_2.Size = UDim2.new(0, 163, 0, 49)
+FreeHubTitle_2.Font = Enum.Font.Cartoon
+FreeHubTitle_2.Text = "FreeHub"
+FreeHubTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_2.TextSize = 45.000
+FreeHubTitle_2.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 20)
+UICorner_8.Parent = FreeHubTitle_2
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = Utilities_2
+
+TabsContainer_2.Name = "TabsContainer"
+TabsContainer_2.Parent = Utilities_2
+TabsContainer_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TabsContainer_2.Position = UDim2.new(0.772727251, 0, 0.0252808984, 0)
+TabsContainer_2.Size = UDim2.new(0, 125, 0, 195)
+
+UICorner_10.CornerRadius = UDim.new(0, 16)
+UICorner_10.Parent = TabsContainer_2
+
+Home_2.Name = "Home"
+Home_2.Parent = TabsContainer_2
+Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home_2.Position = UDim2.new(0.0240000002, 0, 0.0199999996, 0)
+Home_2.Size = UDim2.new(0, 119, 0, 43)
+Home_2.Font = Enum.Font.SourceSans
+Home_2.Text = "Home"
+Home_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home_2.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 20)
+UICorner_11.Parent = Home_2
+
+Visualizer_2.Name = "Visualizer"
+Visualizer_2.Parent = TabsContainer_2
+Visualizer_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Visualizer_2.Position = UDim2.new(0.0240000002, 0, 0.264999986, 0)
+Visualizer_2.Size = UDim2.new(0, 119, 0, 43)
+Visualizer_2.Font = Enum.Font.SourceSans
+Visualizer_2.Text = "Visualizer"
+Visualizer_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visualizer_2.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 20)
+UICorner_12.Parent = Visualizer_2
+
+Utilities_3.Name = "Utilities"
+Utilities_3.Parent = TabsContainer_2
+Utilities_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Utilities_3.Position = UDim2.new(0.0240000002, 0, 0.514999986, 0)
+Utilities_3.Size = UDim2.new(0, 119, 0, 43)
+Utilities_3.Font = Enum.Font.SourceSans
+Utilities_3.Text = "Utilities"
+Utilities_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Utilities_3.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 20)
+UICorner_13.Parent = Utilities_3
+
+Logs_3.Name = "Logs"
+Logs_3.Parent = TabsContainer_2
+Logs_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logs_3.Position = UDim2.new(0.0240000002, 0, 0.75999999, 0)
+Logs_3.Size = UDim2.new(0, 119, 0, 43)
+Logs_3.Font = Enum.Font.SourceSans
+Logs_3.Text = "Logs"
+Logs_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Logs_3.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 20)
+UICorner_14.Parent = Logs_3
+
+TextLabel_2.Parent = Utilities_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.313131303, 0, 0.306179762, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "U"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+Visualizer_3.Name = "Visualizer"
+Visualizer_3.Parent = Drag
+Visualizer_3.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Visualizer_3.LayoutOrder = 1
+Visualizer_3.Position = UDim2.new(0.00100000005, 0, -0.00600000005, 0)
+Visualizer_3.Size = UDim2.new(0, 594, 0, 356)
+Visualizer_3.Visible = false
+
+FreeHubTitle_3.Name = "FreeHubTitle"
+FreeHubTitle_3.Parent = Visualizer_3
+FreeHubTitle_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FreeHubTitle_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_3.Position = UDim2.new(0.0259053148, 0, 0.0359273553, 0)
+FreeHubTitle_3.Size = UDim2.new(0, 163, 0, 49)
+FreeHubTitle_3.Font = Enum.Font.Cartoon
+FreeHubTitle_3.Text = "FreeHub"
+FreeHubTitle_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_3.TextSize = 45.000
+FreeHubTitle_3.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 20)
+UICorner_15.Parent = FreeHubTitle_3
+
+UICorner_16.CornerRadius = UDim.new(0, 20)
+UICorner_16.Parent = Visualizer_3
+
+TabsContainer_3.Name = "TabsContainer"
+TabsContainer_3.Parent = Visualizer_3
+TabsContainer_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TabsContainer_3.Position = UDim2.new(0.772727251, 0, 0.0252808984, 0)
+TabsContainer_3.Size = UDim2.new(0, 125, 0, 195)
+
+UICorner_17.CornerRadius = UDim.new(0, 16)
+UICorner_17.Parent = TabsContainer_3
+
+Home2.Name = "Home2"
+Home2.Parent = TabsContainer_3
+Home2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home2.Position = UDim2.new(0.0240000002, 0, 0.0199999996, 0)
+Home2.Size = UDim2.new(0, 119, 0, 43)
+Home2.Font = Enum.Font.SourceSans
+Home2.Text = "Home"
+Home2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home2.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 20)
+UICorner_18.Parent = Home2
+
+Visualizer2.Name = "Visualizer2"
+Visualizer2.Parent = TabsContainer_3
+Visualizer2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Visualizer2.Position = UDim2.new(0.0240000002, 0, 0.264999986, 0)
+Visualizer2.Size = UDim2.new(0, 119, 0, 43)
+Visualizer2.Font = Enum.Font.SourceSans
+Visualizer2.Text = "Visualizer"
+Visualizer2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visualizer2.TextSize = 14.000
+
+UICorner_19.CornerRadius = UDim.new(0, 20)
+UICorner_19.Parent = Visualizer2
+
+Utilities2.Name = "Utilities2"
+Utilities2.Parent = TabsContainer_3
+Utilities2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Utilities2.Position = UDim2.new(0.0240000002, 0, 0.514999986, 0)
+Utilities2.Size = UDim2.new(0, 119, 0, 43)
+Utilities2.Font = Enum.Font.SourceSans
+Utilities2.Text = "Utilities"
+Utilities2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Utilities2.TextSize = 14.000
+
+UICorner_20.CornerRadius = UDim.new(0, 20)
+UICorner_20.Parent = Utilities2
+
+Logs2.Name = "Logs2"
+Logs2.Parent = TabsContainer_3
+Logs2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logs2.Position = UDim2.new(0.0240000002, 0, 0.75999999, 0)
+Logs2.Size = UDim2.new(0, 119, 0, 43)
+Logs2.Font = Enum.Font.SourceSans
+Logs2.Text = "Logs"
+Logs2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Logs2.TextSize = 14.000
+
+UICorner_21.CornerRadius = UDim.new(0, 20)
+UICorner_21.Parent = Logs2
+
+TextLabel_3.Parent = Visualizer_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.33164984, 0, 0.429775268, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "V"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+Home_3.Name = "Home"
+Home_3.Parent = Drag
+Home_3.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Home_3.Position = UDim2.new(0.000808089972, 0, -0.00614711922, 0)
+Home_3.Size = UDim2.new(0, 594, 0, 356)
+
+FreeHubTitle_4.Name = "FreeHubTitle"
+FreeHubTitle_4.Parent = Home_3
+FreeHubTitle_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FreeHubTitle_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_4.Position = UDim2.new(0.0259053148, 0, 0.0359273553, 0)
+FreeHubTitle_4.Size = UDim2.new(0, 163, 0, 49)
+FreeHubTitle_4.Font = Enum.Font.Cartoon
+FreeHubTitle_4.Text = "FreeHub"
+FreeHubTitle_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeHubTitle_4.TextSize = 45.000
+FreeHubTitle_4.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 20)
+UICorner_22.Parent = FreeHubTitle_4
+
+UICorner_23.CornerRadius = UDim.new(0, 20)
+UICorner_23.Parent = Home_3
+
+Credits.Name = "Credits"
+Credits.Parent = Home_3
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.33164984, 0, 0.0730337054, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "-- Credits --"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 20.000
+Credits.TextWrapped = true
+
+TabsContainer_4.Name = "TabsContainer"
+TabsContainer_4.Parent = Home_3
+TabsContainer_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TabsContainer_4.Position = UDim2.new(0.772727251, 0, 0.0252808984, 0)
+TabsContainer_4.Size = UDim2.new(0, 125, 0, 195)
+
+UICorner_24.CornerRadius = UDim.new(0, 16)
+UICorner_24.Parent = TabsContainer_4
+
+Home_4.Name = "Home"
+Home_4.Parent = TabsContainer_4
+Home_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home_4.Position = UDim2.new(0.0240000002, 0, 0.0199999996, 0)
+Home_4.Size = UDim2.new(0, 119, 0, 43)
+Home_4.Font = Enum.Font.SourceSans
+Home_4.Text = "Home"
+Home_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home_4.TextSize = 14.000
+
+UICorner_25.CornerRadius = UDim.new(0, 20)
+UICorner_25.Parent = Home_4
+
+Visualizer_4.Name = "Visualizer"
+Visualizer_4.Parent = TabsContainer_4
+Visualizer_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Visualizer_4.Position = UDim2.new(0.0240000002, 0, 0.264999986, 0)
+Visualizer_4.Size = UDim2.new(0, 119, 0, 43)
+Visualizer_4.Font = Enum.Font.SourceSans
+Visualizer_4.Text = "Visualizer"
+Visualizer_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visualizer_4.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0, 20)
+UICorner_26.Parent = Visualizer_4
+
+Utilities_4.Name = "Utilities"
+Utilities_4.Parent = TabsContainer_4
+Utilities_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Utilities_4.Position = UDim2.new(0.0240000002, 0, 0.514999986, 0)
+Utilities_4.Size = UDim2.new(0, 119, 0, 43)
+Utilities_4.Font = Enum.Font.SourceSans
+Utilities_4.Text = "Utilities"
+Utilities_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Utilities_4.TextSize = 14.000
+
+UICorner_27.CornerRadius = UDim.new(0, 20)
+UICorner_27.Parent = Utilities_4
+
+Logs_4.Name = "Logs"
+Logs_4.Parent = TabsContainer_4
+Logs_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logs_4.Position = UDim2.new(0.0240000002, 0, 0.75999999, 0)
+Logs_4.Size = UDim2.new(0, 119, 0, 43)
+Logs_4.Font = Enum.Font.SourceSans
+Logs_4.Text = "Logs"
+Logs_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Logs_4.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 20)
+UICorner_28.Parent = Logs_4
+
+CreditBox.Name = "CreditBox"
+CreditBox.Parent = Home_3
+CreditBox.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+CreditBox.Position = UDim2.new(0.255892277, 0, 0.21348314, 0)
+CreditBox.Size = UDim2.new(0, 290, 0, 179)
+CreditBox.Font = Enum.Font.SourceSansBold
+CreditBox.Text = "Creator - euphoria#8366"
+CreditBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditBox.TextSize = 16.000
+CreditBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_29.CornerRadius = UDim.new(0, 16)
+UICorner_29.Parent = CreditBox
+
+local function GALFVWA_fake_script()
+	local script = Instance.new('Script', Home)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(GALFVWA_fake_script)()
+local function DBHRNV_fake_script()
+	local script = Instance.new('Script', Visualizer)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(DBHRNV_fake_script)()
+local function QHVERDE_fake_script()
+	local script = Instance.new('Script', Utilities)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(QHVERDE_fake_script)()
+local function LMGVGXO_fake_script()
+	local script = Instance.new('Script', Logs_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	end)
+end
+coroutine.wrap(LMGVGXO_fake_script)()
+local function ZBXVC_fake_script()
+	local script = Instance.new('Script', Home_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(ZBXVC_fake_script)()
+local function AQZSTC_fake_script()
+	local script = Instance.new('Script', Visualizer_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(AQZSTC_fake_script)()
+local function NJAD_fake_script()
+	local script = Instance.new('Script', Utilities_3)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(NJAD_fake_script)()
+local function ZOZKR_fake_script() 
+	local script = Instance.new('Script', Logs_3)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = true
+	end)
+end
+coroutine.wrap(ZOZKR_fake_script)()
+local function BQQA_fake_script() 
+	local script = Instance.new('Script', Home2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = true
+		
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(BQQA_fake_script)()
+local function JDPWDDJ_fake_script()
+	local script = Instance.new('Script', Visualizer2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(JDPWDDJ_fake_script)()
+local function XRVT_fake_script() 
+	local script = Instance.new('Script', Utilities2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = true
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(XRVT_fake_script)()
+local function GVWDREO_fake_script() 
+	local script = Instance.new('Script', Logs2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = true
+	end)
+end
+coroutine.wrap(GVWDREO_fake_script)()
+local function DFIZQN_fake_script()
+	local script = Instance.new('Script', Home_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = true
+		
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(DFIZQN_fake_script)()
+local function FLEDLQL_fake_script() 
+	local script = Instance.new('Script', Visualizer_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = true
+		
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(FLEDLQL_fake_script)()
+local function VIXBG_fake_script()
+	local script = Instance.new('Script', Utilities_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Home.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = true
+		
+		script.Parent.Parent.Parent.Parent.Logs.Visible = false
+	end)
+end
+coroutine.wrap(VIXBG_fake_script)()
+local function VNKQACJ_fake_script()
+	local script = Instance.new('Script', Logs_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		script.Parent.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Visualizer.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Utilities.Visible = false
+	
+		script.Parent.Parent.Parent.Parent.Logs.Visible = true
+	end)
+end
+coroutine.wrap(VNKQACJ_fake_script)()
+
+local function DragScript()
+	local script = Instance.new('LocalScript', Drag)
+
+	local UIS = game:GetService("UserInputService")
+	function draggable(Drag)
+		dragToggle = nil
+		local dragSpeed = 3
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Drag, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+
+		Drag.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	draggable(script.Parent)
+end
+
+coroutine.wrap(DragScript)()
+
+local function CloseScript()
+	local script = Instance.new('LocalScript', FreeHub)
+
+	local plrs = game:GetService("Players")
+	local Home = script.Parent
+	local open = false
+	local plr = plrs.LocalPlayer
+	local mouse = plr:GetMouse()
+	function press(key)
+		if (key == "v") then
+			if (open == true) then
+				Home.Enabled = false
+				open = false
+			elseif (open == false) then
+				Home.Enabled = true
+				open = true
+			end
+		end
+	end
+	mouse.KeyDown:Connect(press)
+end
+coroutine.wrap(CloseScript)()
